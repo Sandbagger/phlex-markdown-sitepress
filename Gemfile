@@ -65,3 +65,9 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
+
+gem "phlex-rails", "~> 1.1"
+
+gem "sitepress-rails", "~> 4.0"
+
+gem 'phlex-markdown', git: 'https://github.com/phlex-ruby/phlex-markdown'
