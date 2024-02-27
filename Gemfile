@@ -71,3 +71,6 @@ gem "phlex-rails", "~> 1.1"
 gem "sitepress-rails", "~> 4.0"
 
 gem 'phlex-markdown', git: 'https://github.com/phlex-ruby/phlex-markdown'
+
+gem "markdown-rails", "~> 2.1"
+gem "redcarpet", "~> 3.6"

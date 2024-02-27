@@ -13,3 +13,27 @@
  *= require_tree .
  *= require_self
  */
+ <style>
+ .sitepress {
+   max-width: 90%;
+ }
+ .sitepress h1 {
+   font-weight: bold;
+   font-size: 3rem;
+   margin-bottom: 4rem;
+ }
+ .sitepress h2 {
+   font-weight: bold;
+   font-size: 1.5rem;
+ }
+ .sitepress * {
+   margin-top: 1rem;
+ }
+ .sitepress code {
+   font-family: monospace;
+   font-size: 1rem;
+ }
+ .sitepress a {
+   text-decoration: underline;
+ }
+</style>

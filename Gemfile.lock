@@ -135,6 +135,11 @@ GEM
       net-pop
       net-smtp
     marcel (1.0.2)
+    markdown-rails (2.1.0)
+      actionview (>= 6.0.0)
+      activesupport (>= 6.0.0)
+      railties (>= 6.0.0)
+      redcarpet (>= 3.0.0)
     markly (0.10.0)
     matrix (0.4.2)
     mime-types (3.5.2)
@@ -212,6 +217,7 @@ GEM
     rake (13.1.0)
     rdoc (6.6.2)
       psych (>= 4.0.0)
+    redcarpet (3.6.0)
     redis (5.1.0)
       redis-client (>= 0.17.0)
     redis-client (0.20.0)
@@ -278,10 +284,12 @@ DEPENDENCIES
   debug
   jbuilder
   jsbundling-rails
+  markdown-rails (~> 2.1)
   phlex-markdown!
   phlex-rails (~> 1.1)
   puma (>= 5.0)
   rails (~> 7.1.3)
+  redcarpet (~> 3.6)
   redis (>= 4.0.1)
   selenium-webdriver
   sitepress-rails (~> 4.0)
